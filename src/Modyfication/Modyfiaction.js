@@ -1,10 +1,10 @@
 import React from 'react';
 import BottomNavbar from './BottomNavbar/BottomNavbar';
-import Button from './Button/Button';
 import "./Modyfication.css";
 import Navbar from './Navbar/Navbar';
 import Stepper from './Stepper/Stepper';
-
+import {BsChevronRight} from "react-icons/bs";
+import FormulageMachine from './Formulage/FormulageMachine';
 
 
 function Modyfiaction() {
@@ -15,11 +15,7 @@ function Modyfiaction() {
                 <Stepper/>
                 </div>
                 <div className="formulage-conteiner">
-                    <p>Polarization</p>
-                    <div className="button-box">
-                        <a href="/">Anode</a>
-                        <a href="/">Cathode</a>
-                    </div>
+                    <FormulageMachine/>
                 </div>
                 <BottomNavbar/>
             </div>

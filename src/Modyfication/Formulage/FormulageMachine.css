@@ -1,0 +1,110 @@
+.formulege-box-machine{
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+.text-polarization{
+    width: 100%;
+    height: 50px;
+
+}
+.text-polarization p{
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    font-size: 24px;
+}
+.buttons-polarization{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    
+}
+.buttons-polarization a{
+    text-align: center;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffff;
+    background: #2C2F33;
+    box-shadow: 14px 14px 40px rgba(16, 16, 18, 0.75), -7px -7px 30px #262E32;
+    border-radius: 20px;
+}
+.text-machine-name{
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+}
+.text-machine-name p{
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    font-size: 24px;
+}
+.machine-name-button-box{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.left-button{
+    height: auto;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    margin-right:50px;
+}
+.left-button a{
+    text-align: center;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffff;
+    background: #2C2F33;
+    box-shadow: 14px 14px 40px rgba(16, 16, 18, 0.75), -7px -7px 30px #262E32;
+    border-radius: 20px;
+}
+.rigcht-button-box{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-right:50px;
+}
+.all-name-box{
+    width: auto;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffff;
+    background: #2C2F33;
+    box-shadow: 14px 14px 40px rgba(16, 16, 18, 0.75), -7px -7px 30px #262E32;
+    border-radius: 20px;
+}
+.coater-name{
+    margin-right: 30px;
+}
+.roll-press-name{
+    margin-right: 30px;
+}
+.slitter-name{
+    margin-right: 30px;
+}
+.half-slitter-name{
+    margin-right: 30px;
+}
+.rewinder-name{
+    margin-right: 30px;
+}
+.mixer-name{
+    margin-right: 30px;
+}
+.SRP-name{
+    margin-right: 30px;
+}
+

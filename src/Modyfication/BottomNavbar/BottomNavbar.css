@@ -1,5 +1,18 @@
 .bottom-navbar-conteiner{
     width: 100%;
     height: 100px;
-    background-color: blueviolet;
+}
+.next-button{
+    float: right;
+    background: #2C2F33;
+    box-shadow: -6.22302px -6.22302px 18.6691px #3B4451, 6.22302px 6.22302px 18.6691px #000000;
+    border-radius: 12.446px;
+    width: 120px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    right:40px;
 }
