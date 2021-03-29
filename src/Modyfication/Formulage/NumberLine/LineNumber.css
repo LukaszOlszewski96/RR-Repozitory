@@ -1,0 +1,34 @@
+
+.all-number-box{
+    width: auto;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffff;
+    background-color: #2C2F33;
+    box-shadow: 14px 14px 40px rgba(16, 16, 18, 0.75), -7px -7px 30px #262E32;
+    border-radius: 20px;
+}
+.coater-number{
+    margin-right: 30px;
+}
+.roll-press-number{
+    margin-right: 30px;
+}
+.slitter-number{
+    margin-right: 30px;
+}
+.half-slitter-number{
+    margin-right: 30px;
+}
+.rewinder-number{
+    margin-right: 30px;
+}
+.mixer-number{
+    margin-right: 30px;
+}
+.SRP-number{
+    margin-right: 30px;
+}

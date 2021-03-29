@@ -1,7 +1,18 @@
 import React from 'react';
 import "./FormulageMachine.css";
+import  {IoIosArrowForward} from "react-icons/io"
+import NameLine from './Line Name/NameLine';
+import LineNumber from './NumberLine/LineNumber';
+
 
 function FormulageMachine() {
+
+    const [showNameLine,setShowNameLine] = React.useState(false);
+
+    const clickName =()=>{
+        setShowNameLine(true);
+    }
+
     return (
         <div className="formulege-box-machine">
             <div className="text-polarization">
@@ -12,22 +23,14 @@ function FormulageMachine() {
                 <a href="/" className="Cathode-button">Cathode</a>
             </div>
             <div className="text-machine-name">
-                <p>Machine Name</p>
+                <p>Switch Name</p>
             </div>
             <div className="machine-name-button-box">
                 <div className="left-button">
-                    <a href="/">Switch Name</a>
+                    <a className="switch-name" href="/" onClick={clickName}>Switch Name <p><IoIosArrowForward/></p></a>
                 </div>
                 <div className="rigcht-button-box">
-                    <div className="all-name-box">
-                        <a href="/" className="coater-name" >Coater</a>
-                        <a href="/" className="roll-press-name">Roll Press</a>
-                        <a href="/" className="slitter-name">Slitter</a>
-                        <a href="/" className="half-slitter-name">Half Slitter</a>
-                        <a href="/" className="rewinder-name">Rewinder</a>
-                        <a href="/" className="mixer-name">Mixer</a>
-                        <a href="/" className="srp-name">SRP</a>
-                    </div>
+                    {showNameLine ? <NameLine/> : <div></div>}
                 </div>
             </div>
             <div className="text-machine-name">
@@ -35,22 +38,12 @@ function FormulageMachine() {
             </div>
             <div className="machine-name-button-box">
                 <div className="left-button">
-                    <a href="/">Switch Number</a>
+                    <a className="switch-number" href="/">Switch Number<p><IoIosArrowForward/></p></a>
                 </div>
                 <div className="rigcht-button-box">
-                    <div className="all-name-box">
-                        <a href="/" className="coater-name" >3-1</a>
-                        <a href="/" className="roll-press-name">3-2</a>
-                        <a href="/" className="slitter-name">3-3</a>
-                        <a href="/" className="half-slitter-name">3-4</a>
-                        <a href="/" className="rewinder-name">3-5</a>
-                        <a href="/" className="mixer-name">3-6</a>
-                        <a href="/" className="srp-name">3-7</a>
-                    </div>
+                    <LineNumber/>
                 </div>
             </div>
-            
-
         </div>
     )
 }
