@@ -8,9 +8,13 @@ import LineNumber from './NumberLine/LineNumber';
 function FormulageMachine() {
 
     const [showNameLine,setShowNameLine] = React.useState(false);
+    const [showNumberLine,setShowNumberLine] = React.useState(false);
 
     const clickName =()=>{
-        setShowNameLine(true);
+        setShowNameLine(!showNameLine);
+    } 
+    const clickNumber =()=>{
+        setShowNumberLine(!showNumberLine);
     }
 
     return (
@@ -23,14 +27,22 @@ function FormulageMachine() {
                 <a href="/" className="Cathode-button">Cathode</a>
             </div>
             <div className="text-machine-name">
-                <p>Switch Name</p>
+                <p >Machine Name</p>
             </div>
             <div className="machine-name-button-box">
                 <div className="left-button">
-                    <a className="switch-name" href="/" onClick={clickName}>Switch Name <p><IoIosArrowForward/></p></a>
+                    <a className="switch-name" href="#" onClick={clickName}>Switch name <p><IoIosArrowForward/></p></a>
                 </div>
                 <div className="rigcht-button-box">
-                    {showNameLine ? <NameLine/> : <div></div>}
+                    { showNameLine ? <div className="all-name-box">
+                        <a value="coater" href="#" className="coater-name">Coater</a>
+                        <a value="roll press" href="#" className="roll-press-name">Roll Press</a>
+                        <a value="slitter" href="#" className="slitter-name">Slitter</a>
+                        <a value="half slitter" href="#" className="half-slitter-name">Half Slitter</a>
+                        <a value="rewinder" href="#" className="rewinder-name">Rewinder</a>
+                        <a value="mixer" href="#" className="mixer-name">Mixer</a>
+                        <a value="srp" href="#" className="srp-name">SRP</a>
+                    </div> : <div></div> }
                 </div>
             </div>
             <div className="text-machine-name">
@@ -38,10 +50,10 @@ function FormulageMachine() {
             </div>
             <div className="machine-name-button-box">
                 <div className="left-button">
-                    <a className="switch-number" href="/">Switch Number<p><IoIosArrowForward/></p></a>
+                    <a className="switch-number" href="#" onClick={clickNumber}>Switch Number<p><IoIosArrowForward/></p></a>
                 </div>
                 <div className="rigcht-button-box">
-                    <LineNumber/>
+                    { showNumberLine ? <LineNumber/> : <div></div> }
                 </div>
             </div>
         </div>

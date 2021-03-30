@@ -1,0 +1,8 @@
+.calendar-button{
+    width: 54px;
+    height: 52px;
+    background: #2C2F33;
+    box-shadow: 14px 14px 40px rgba(16, 16, 18, 0.75), -7px -7px 30px #262E32;
+    border-radius: 12px;
+    color: #ffff;
+}

@@ -1,0 +1,78 @@
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.formulege-box-machine{
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+.text-parts{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    left:200px;
+
+}
+.text-parts p{
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    font-size: 24px;
+}
+.buttons-parts{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    left:250px;
+}
+.buttons-parts a{
+    text-align: center;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffff;
+    background: #2C2F33;
+    box-shadow: 14px 14px 40px rgba(16, 16, 18, 0.75), -7px -7px 30px #262E32;
+    border-radius: 20px;
+}
+.text-product-name{
+    color:#ffff;
+    font-size: 24px;
+    position: relative;
+    left:200px;
+}
+.PLC-button{
+    margin-right: 20px;
+}
+.HMI-button{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Inverter-button{
+    margin-left: 20px;
+}
+.form-text{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+}
+.form-text input{
+    height: 45px;
+    width: 580px;
+    background: #2C2F33;
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+    border-radius: 12.446px;
+    color: #ffff;
+    font-size: 18px;
+    outline: none;
+    
+}
+
+
+
+
+
