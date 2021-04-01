@@ -5,7 +5,6 @@ function Button() {
     return (
         <div className="button-conteiner">
             <button type="button">Anode</button>
-            
         </div>
     )
 }

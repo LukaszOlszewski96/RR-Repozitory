@@ -5,12 +5,24 @@ import  {FaRegCalendarAlt} from "react-icons/fa";
 function Descrition() {
     return (
         <div className="formulege-box-machine">
+            <p className="calendar-data">31.03.2021</p>
             <a className="calendar-button">
                 <FaRegCalendarAlt/>
             </a>
-            
+            <div className="text-description-name">
+                <p >Topic</p>
+                <form className="form-text">
+                    <input type="text"/>
+                </form>
+            </div>
+            <div className="text-description-name">
+                <p>Description</p>
+                <form className="form-text-description">
+                    <input type="text-description"/>
+                </form>
+            </div>
         </div>
     )
 }
 
-export default Descrition
+export default Descrition;

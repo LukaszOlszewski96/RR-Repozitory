@@ -9,12 +9,17 @@ function FormulageMachine() {
 
     const [showNameLine,setShowNameLine] = React.useState(false);
     const [showNumberLine,setShowNumberLine] = React.useState(false);
+    const [showColor,setColor] = React.useState("");
 
+    
     const clickName =()=>{
         setShowNameLine(!showNameLine);
     } 
     const clickNumber =()=>{
         setShowNumberLine(!showNumberLine);
+    }
+    const changeColor =()=>{
+        setColor("#39D1B4");
     }
 
     return (
@@ -23,8 +28,8 @@ function FormulageMachine() {
                 <p>Polarization</p>
             </div>
             <div className="buttons-polarization">
-                <a href="/" className="Anode-button">Anode</a>
-                <a href="/" className="Cathode-button">Cathode</a>
+                <a id="anode-button-id" href="/" className="Anode-button" onClick={changeColor} style={{background: showColor}} >Anode</a>
+                <a id="cathode-button-id" href="/" className="Cathode-button">Cathode</a>
             </div>
             <div className="text-machine-name">
                 <p >Machine Name</p>
