@@ -10,7 +10,7 @@ function FormulageMachine() {
     const [showNameLine,setShowNameLine] = React.useState(false);
     const [showNumberLine,setShowNumberLine] = React.useState(false);
     const [activeAnodeBtn,setActiveAnodeBtn] = React.useState(false);
-    const[activeCathodeBtn,setActiveCathodeBtn] = React.useState(false);
+    const [activeCathodeBtn,setActiveCathodeBtn] = React.useState(false);
     
     const clickName =()=>{
         setShowNameLine(!showNameLine);
@@ -21,10 +21,12 @@ function FormulageMachine() {
 
     const clickButtonAnode =()=>{
         setActiveAnodeBtn(!activeAnodeBtn);
+        setActiveCathodeBtn(false);
     }
     
     const clickButtonCathode=()=>{
         setActiveCathodeBtn(!activeCathodeBtn);
+        setActiveAnodeBtn(false);
     }
 
     return (
