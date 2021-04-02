@@ -105,6 +105,9 @@ a{
     color: rgba(255, 255, 255, 0.445);
     background-color: #262E32;
 }
+.switch-name:active{
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+}
 .switch-number{
     text-align: center;
     width: 200px;
@@ -120,6 +123,9 @@ a{
 .switch-number:hover{
     color: rgba(255, 255, 255, 0.445);
     background-color: #262E32;
+}
+.switch-number:active{
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
 }
 .switch-name p{
     margin:0;
@@ -142,7 +148,12 @@ a{
     margin-right:50px;
     opacity:100%;
 }
-
+.all-name-box a:hover {
+    color: rgba(255, 255, 255, 0.445);
+}
+.all-number-box a:hover {
+    color: rgba(255, 255, 255, 0.445);
+}
 
 
 
