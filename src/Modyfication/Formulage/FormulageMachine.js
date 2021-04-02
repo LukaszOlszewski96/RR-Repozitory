@@ -9,7 +9,8 @@ function FormulageMachine() {
 
     const [showNameLine,setShowNameLine] = React.useState(false);
     const [showNumberLine,setShowNumberLine] = React.useState(false);
-    const [showColor,setColor] = React.useState("");
+    const [activeAnodeBtn, setAnodeBtn] = React.useState(false);
+    const [activeCathodeBtn, setCathodeBtn] = React.useState(false);
 
     
     const clickName =()=>{
@@ -18,9 +19,13 @@ function FormulageMachine() {
     const clickNumber =()=>{
         setShowNumberLine(!showNumberLine);
     }
-    const changeColor =()=>{
-        setColor("#39D1B4");
+    const clickAnodeBtn =()=>{
+        setAnodeBtn(!activeAnodeBtn);
     }
+    const clickCathodeBtn =()=>{
+        setCathodeBtn(!activeCathodeBtn);
+    }
+  
 
     return (
         <div className="formulege-box-machine">
@@ -28,8 +33,8 @@ function FormulageMachine() {
                 <p>Polarization</p>
             </div>
             <div className="buttons-polarization">
-                <a id="anode-button-id" href="/" className="Anode-button" onClick={changeColor} style={{background: showColor}} >Anode</a>
-                <a id="cathode-button-id" href="/" className="Cathode-button">Cathode</a>
+                <a id="anode-button-id" href="#" className={activeAnodeBtn ? "Anode-button active":"Anode-button"} onClick={clickAnodeBtn}  >Anode</a>
+                <a id="cathode-button-id" href="#" className={activeCathodeBtn ? "Cathode-button active":"Cathode-button"} onClick={clickCathodeBtn}>Cathode</a>
             </div>
             <div className="text-machine-name">
                 <p >Machine Name</p>
