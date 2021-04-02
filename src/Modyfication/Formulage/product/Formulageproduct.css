@@ -48,12 +48,24 @@ a{
 .PLC-button{
     margin-right: 20px;
 }
+.PLC-button:hover{
+    color: rgba(255, 255, 255, 0.445);
+    background-color: #262E32;
+}
 .HMI-button{
     margin-left: 20px;
     margin-right: 20px;
 }
+.HMI-button:hover{
+    color: rgba(255, 255, 255, 0.445);
+    background-color: #262E32;
+}
 .Inverter-button{
     margin-left: 20px;
+}
+.Inverter-button:hover{
+    color: rgba(255, 255, 255, 0.445);
+    background-color: #262E32;
 }
 .form-text{
     margin-top: 20px;
