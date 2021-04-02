@@ -11,12 +11,18 @@ function Formulageroduct() {
 
     const clickPLCbtn = () => {
         setBtnActivePLC(!btnActivePLC);
+        setBtnActiveHMI(false);
+        setBtnActiveInv(false);
     }
     const clickHMIbtn = () => {
         setBtnActiveHMI(!btnActiveHMI);
+        setBtnActivePLC(false);
+        setBtnActiveInv(false);
     }
     const clickInvBtn = () => {
         setBtnActiveInv(!btnAvtiveInv);
+        setBtnActiveHMI(false);
+        setBtnActivePLC(false);
     }
 
     return (
