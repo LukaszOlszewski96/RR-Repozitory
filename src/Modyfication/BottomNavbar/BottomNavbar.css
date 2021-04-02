@@ -16,3 +16,7 @@
     position: relative;
     right:40px;
 }
+.next-button:hover{
+    color: rgba(255, 255, 255, 0.445);
+    background-color: #262E32;
+}

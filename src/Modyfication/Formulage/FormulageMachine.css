@@ -39,11 +39,25 @@ a{
     box-shadow: 14px 14px 40px rgba(16, 16, 18, 0.75), -7px -7px 30px #262E32;
     border-radius: 20px;
 }
+.buttons-polarization a:hover{
+    color: rgba(255, 255, 255, 0.445);
+    background-color: #262E32;
+}
 .Anode-button{
     margin-right: 20px;
 }
+.Anode-button.active{
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.445);
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+}
 .Cathode-button{
     margin-left: 20px;
+}
+.Cathode-button.active{
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.445);
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
 }
 .text-machine-name{
     margin-top: 40px;
@@ -67,6 +81,7 @@ a{
     position: relative;
     left:250px;
 }
+
 .left-button{
     height: auto;
     width: auto;
@@ -86,6 +101,10 @@ a{
     border-radius: 20px;
     display: flex;
 }
+.switch-name:hover{
+    color: rgba(255, 255, 255, 0.445);
+    background-color: #262E32;
+}
 .switch-number{
     text-align: center;
     width: 200px;
@@ -97,6 +116,10 @@ a{
     box-shadow: 14px 14px 40px rgba(16, 16, 18, 0.75), -7px -7px 30px #262E32;
     border-radius: 20px;
     display: flex;
+}
+.switch-number:hover{
+    color: rgba(255, 255, 255, 0.445);
+    background-color: #262E32;
 }
 .switch-name p{
     margin:0;
