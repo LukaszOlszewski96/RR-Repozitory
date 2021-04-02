@@ -48,6 +48,11 @@ a{
 .PLC-button{
     margin-right: 20px;
 }
+.PLC-button.active{
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.445);
+}
 .PLC-button:hover{
     color: rgba(255, 255, 255, 0.445);
     background-color: #262E32;
@@ -56,12 +61,22 @@ a{
     margin-left: 20px;
     margin-right: 20px;
 }
+.HMI-button.active{
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.445);
+}
 .HMI-button:hover{
     color: rgba(255, 255, 255, 0.445);
     background-color: #262E32;
 }
 .Inverter-button{
     margin-left: 20px;
+}
+.Inverter-button.active{
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.445);
 }
 .Inverter-button:hover{
     color: rgba(255, 255, 255, 0.445);
