@@ -9,6 +9,20 @@
     position: relative;
     right: 50px;
 }
+.calendar-button:hover{
+    color: rgba(255, 255, 255, 0.445);
+}
+.calendar-button.active{
+    padding: 15px 15px 15px 15px;
+    font-size: 18px;
+    background: #2C2F33;
+    color: rgba(255, 255, 255, 0.445);
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+    border-radius: 12px;
+    float: right;
+    position: relative;
+    right: 50px;
+}
 .text-description-name{
     color:#ffff;
     font-size: 24px;

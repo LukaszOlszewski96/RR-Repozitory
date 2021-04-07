@@ -3,10 +3,17 @@ import "./Descrition.css";
 import  {FaRegCalendarAlt} from "react-icons/fa";
 
 function Descrition() {
+
+    const [showCalendar, setCalendarStatus] = React.useState(false);
+
+    const clickCalendar = () =>{
+        setCalendarStatus(!showCalendar);
+    }
+
     return (
         <div className="formulege-box-machine">
             <p className="calendar-data">31.03.2021</p>
-            <a className="calendar-button">
+            <a href="#" onClick={clickCalendar} className= { showCalendar ? "calendar-button active" : "calendar-button"}>
                 <FaRegCalendarAlt/>
             </a>
             <div className="text-description-name">
