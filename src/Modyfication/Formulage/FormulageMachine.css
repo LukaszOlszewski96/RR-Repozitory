@@ -47,17 +47,29 @@ a{
     margin-right: 20px;
 }
 .Anode-button.active{
+<<<<<<< HEAD
     margin-right: 20px;
     color: rgba(255, 255, 255, 0.445);
     box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+=======
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.445);
+>>>>>>> Future_Product_screen
 }
 .Cathode-button{
     margin-left: 20px;
 }
 .Cathode-button.active{
+<<<<<<< HEAD
     margin-right: 20px;
     color: rgba(255, 255, 255, 0.445);
     box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+=======
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.445);
+>>>>>>> Future_Product_screen
 }
 .text-machine-name{
     margin-top: 40px;
@@ -124,8 +136,14 @@ a{
     color: rgba(255, 255, 255, 0.445);
     background-color: #262E32;
 }
+<<<<<<< HEAD
 .switch-number:active{
     box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+=======
+.switch-name:hover{
+    color: rgba(255, 255, 255, 0.445);
+    background-color: #262E32;
+>>>>>>> Future_Product_screen
 }
 .switch-name p{
     margin:0;

@@ -16,7 +16,12 @@
     position: relative;
     right:40px;
 }
+<<<<<<< HEAD
 .next-button:hover{
     color: rgba(255, 255, 255, 0.445);
     background-color: #262E32;
+=======
+.next-button:active{
+    box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+>>>>>>> Future_Product_screen
 }
