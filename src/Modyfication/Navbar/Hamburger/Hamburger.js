@@ -13,7 +13,6 @@ function Hamburger() {
         setMenu(!showMenu);
     }
 
-    let widthValue;
 
 
     return (
@@ -24,4 +23,4 @@ function Hamburger() {
     )
 }
 
-export default Hamburger
+export default Hamburger;
